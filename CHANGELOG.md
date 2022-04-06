@@ -1,3 +1,7 @@
+## 0.1.0
+
+- Pre-release! Looking for issues.
+
 ## 0.0.1
 
 - Initial Release 🎉
