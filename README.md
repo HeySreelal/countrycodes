@@ -44,11 +44,11 @@ CountryField(
 ```
 
 <div align="center">
-  <img src="screenshots/CountryField.png" width=120>
+  <img src="screenshots/CountryField.png" width=200>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/Choose.png" width=120>
+  <img src="screenshots/Choose.png" width=200>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/Search.png" width=120>
+  <img src="screenshots/Search.png" width=200>
 </div>
 <br>
 
