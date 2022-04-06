@@ -1,4 +1,4 @@
-import 'home.dart';
+import '../../home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Country Codes',
+      title: 'Country Codes Example',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
