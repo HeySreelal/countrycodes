@@ -1,4 +1,5 @@
 import 'package:countrycodes/countrycodes.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -18,7 +19,9 @@ class _HomeState extends State<Home> {
       body: Center(
         child: CountryField(
           onSelect: (c) {
-            print('Selected country: $c');
+            if (kDebugMode) {
+              print('Selected country: $c');
+            }
           },
         ),
       ),
