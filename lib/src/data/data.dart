@@ -1,14 +1,36 @@
 import 'package:countrycodes/src/models/country.dart';
 
-class CountryData {
-  static Country get defaultCountry => const Country(
-        name: "UN",
-        code: "UN",
-        dialCode: "0",
-        flag: "🇺🇳",
-      );
+class Countries {
+  static List<Country> get list => _list;
 
-  static const List<Country> countries = [
+  static Country findByCode(String code) {
+    return _list.firstWhere(
+      (country) => country.code == code,
+      orElse: () {
+        throw Exception('Could not find country by name code: $code');
+      },
+    );
+  }
+
+  static Country findByName(String name) {
+    return _list.firstWhere(
+      (country) => country.name == name,
+      orElse: () {
+        throw Exception('Could not find country by name: $name');
+      },
+    );
+  }
+
+  static Country? findByDialCode(String code) {
+    return _list.firstWhere(
+      (country) => country.dialCode == code,
+      orElse: () {
+        throw Exception('Invalid dial code: $code');
+      },
+    );
+  }
+
+  static const List<Country> _list = [
     Country(
       name: "Afghanistan",
       code: "AF",

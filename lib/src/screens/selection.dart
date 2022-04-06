@@ -38,14 +38,14 @@ class _CountrySelectionState extends State<CountrySelection> {
   @override
   Widget build(BuildContext context) {
     List<Country> countries = isSearch
-        ? CountryData.countries
+        ? Countries.list
             .where(
               (c) => c.toSearchString().toLowerCase().contains(
                     query.toLowerCase(),
                   ),
             )
             .toList()
-        : CountryData.countries;
+        : Countries.list;
 
     return Scaffold(
       appBar: AppBar(
