@@ -20,7 +20,7 @@ Install the package by adding the following line into your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  countrycodes: <VERSION>
+  countrycodes_field: <VERSION>
 ```
 
 Now import the package into your project:
