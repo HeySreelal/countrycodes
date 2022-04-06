@@ -1,6 +1,6 @@
-import 'package:countrycodes/src/models/country.dart';
-import 'package:countrycodes/src/screens/selection.dart';
-import 'package:countrycodes/src/utils/slide.dart';
+import 'package:countrycodes_field/src/models/country.dart';
+import 'package:countrycodes_field/src/screens/selection.dart';
+import 'package:countrycodes_field/src/utils/slide.dart';
 import 'package:flutter/material.dart';
 
 class CountryField extends StatefulWidget {

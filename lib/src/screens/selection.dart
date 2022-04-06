@@ -1,6 +1,6 @@
-import 'package:countrycodes/src/data/data.dart';
-import 'package:countrycodes/src/models/country.dart';
-import 'package:countrycodes/src/widgets/search.dart';
+import 'package:countrycodes_field/src/data/data.dart';
+import 'package:countrycodes_field/src/models/country.dart';
+import 'package:countrycodes_field/src/widgets/search.dart';
 import 'package:flutter/material.dart';
 
 class CountrySelection extends StatefulWidget {

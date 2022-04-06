@@ -1,4 +1,4 @@
-import 'package:countrycodes/countrycodes.dart';
+import 'package:countrycodes_field/src/country_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

@@ -26,7 +26,7 @@ dependencies:
 Now import the package into your project:
 
 ```dart
-import 'package:countrycodes/countrycodes.dart';
+import 'package:countrycodes_field/countrycodes.dart';
 ```
 
 ## 📚 Usage 
