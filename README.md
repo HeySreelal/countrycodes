@@ -2,6 +2,11 @@
 
 A list of all the country codes, dial codes, their corresponding country names, and flag.
 
+# ℹ️ Note 
+This package is discontinued. Please use [phonecodes](https://pub.dev/packages/phonecodes) package instead.
+
+<hr>
+
 ## Features
 
 You can use the following features:
